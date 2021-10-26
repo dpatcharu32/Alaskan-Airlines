@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#00385f"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"    
+        android:rowCount="5"
+        android:columnCount="2">
+     <TextView
+            android:text="From"
+            android:layout_width="100dp"
+		    android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dip" />
+     <EditText 
+		android:id="@+id/origion" 
+		android:layout_width="250dp" android:textColor="@android:color/black"
+		android:layout_height="50dp"
+        android:background="@layout/rounded_border_edittext"  
+
+		android:inputType="text" />
+     <TextView
+            android:text="To"
+            android:layout_width="100dp"
+		    android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp" />
+    <EditText
+		android:id="@+id/dest"
+		android:layout_width="250dp" android:textColor="@android:color/black"
+		android:layout_height="50dp"
+        android:background="@layout/rounded_border_edittext"  
+
+		android:inputType="text" />
+
+         <TextView android:layout_marginLeft="10dp"
+            android:text="Date"
+            android:layout_width="100dp"
+		    android:layout_height="50dp"
+            android:textSize="20dp" />
+    <Button  
+   android:text="Pick Date"  
+   android:layout_width="250dp"  
+   android:layout_height="wrap_content"  
+   android:id="@+id/date_select_button" />
+
+        
+         <Button
+            android:id="@+id/readXml"
+            android:layout_width="250dp"  
+            android:layout_height="50dp"  
+            android:text="Find Flights" android:layout_marginLeft="75dp"  android:layout_marginTop="25dp" 
+            android:layout_row="3"  android:layout_columnSpan="2"
+            android:layout_column="0" />
+        
+    <ListView android:id="@+id/mainlistview" android:background="#00385f" android:scrollbars="vertical" android:layout_row="4"  android:layout_columnSpan="2"
+        android:layout_height="300dp"  android:layout_width="match_parent"></ListView>
+
+
+
+</GridLayout>
+<TextView  
+   android:text=""  
+   android:layout_width="match_parent"  
+   android:layout_height="wrap_content"  
+   android:id="@+id/date_display" /> 
+<!--
+            <TextView  
+   android:text=""  
+   android:layout_width="match_parent"  
+   android:layout_height="wrap_content"  
+   android:id="@+id/date_display" /> 
+	    <Button
+        android:text="@string/readJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readJson" />
+      <Button
+        android:text="@string/readJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendData" />
+   
+    
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="1" />-->
+</LinearLayout>

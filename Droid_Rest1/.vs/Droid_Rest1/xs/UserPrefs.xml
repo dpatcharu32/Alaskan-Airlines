@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{28907E61-1914-47A9-9847-6E871E71E094}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Droid_Rest1" expanded="True" selected="True">
+            <Node name="Droid_Rest1" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dheerajchowdarychilukuri/Desktop/Droid_Rest1/Droid_Rest1/MainActivity.cs" relfile="Droid_Rest1/MainActivity.cs" line="89" column="1" />
+      <Breakpoint file="/Users/dheerajchowdarychilukuri/Desktop/Droid_Rest1/Droid_Rest1/MainActivity.cs" relfile="Droid_Rest1/MainActivity.cs" line="68" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Droid__Rest1 AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <AuthorInfo Name="Dinesh Venkat Patcharu" Email="dineshmobiledev@gmail.com" Copyright="" Company="" Trademark="" />
+</Properties>
